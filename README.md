@@ -1,7 +1,7 @@
-yii-remember-filters-gridview
+Yii Remember Gridview
 =============================
 
-The ERememberFiltersBehavior Yii extension adds up some functionality to the default possibilites of CActiveRecord/Model implementation.
+The ZRememberGridViewBehavior Yii extension adds up some functionality to the default possibilites of CActiveRecord/Model implementation.
 
 It will detect the **search** scenario and it will save the filters from the GridView. This comes handy when you need to **remember them between navigation** during page changes. For lot of navigation and heavy filtering, this functionality can be activated by just a couple of lines.
 
@@ -13,11 +13,6 @@ Requirements
 --------------------
 
 - Yii 1.1
-
-Donate
-----------
-
-[Click here to donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K9TM6HR8JQ4Z8 "Donate")
 
 Resources
 ---------------
@@ -47,13 +42,13 @@ Usage
 Step 1
 --------
 
-To use this extension, just copy this file to your components/ directory, add 'import' => 'application.components.ERememberFiltersBehavior', [...] to your config/main.php and paste the following code to your behaviors() method of your model
+To use this extension, just copy this file to your components/ directory, add 'import' => 'application.components.ZRememberGridViewBehavior', [...] to your config/main.php and paste the following code to your behaviors() method of your model
 
 ```php
 public function behaviors() {
        return array(
-           'ERememberFiltersBehavior' => array(
-               'class' => 'application.components.ERememberFiltersBehavior',
+           'ZRememberGridViewBehavior' => array(
+               'class' => 'application.components.ZRememberGridViewBehavior',
 			   'defaults'=>array(),           /* optional line */
 			   'defaultStickOnClear'=>false   /* optional line */
            ),
