@@ -7,27 +7,19 @@ It will detect the **search** scenario and it will save the filters from the Gri
 
 It supports **default filter values** and **remember scenarios** also. For example if you want to show only eg: Active Products, you can setup the default filter using this extension. Or if you have the same modal on different views, you can set different scenarios to remember state separated from each other. See the optional params under Advanced Functionalities and Scenarios section. 
 
-![Please login to see the Demo image!](https://raw.github.com/pentium10/yii-remember-filters-gridview/master/res/remember_filters_10.png "Demo")
+![Please login to see the Demo image!](https://raw.github.com/zmiftah/yii-remember-gridview/master/res/remember_filters_10.png "Demo")
 
 Requirements
 --------------------
 
 - Yii 1.1
 
-Resources
----------------
-
-- **[Extension page](http://www.yiiframework.com/extension/remember-filters-gridview/) (don't forget to cast your support vote)**
-- [Report a bug](http://github.com/pentium10/yii-remember-filters-gridview/issues "Report a bug")
-- [Forum](http://www.yiiframework.com/forum/index.php?/topic/15847-extension-remember-filters-gridview/ "Forum")
-- [Clear Filters Gridview extension](http://www.yiiframework.com/extension/clear-filters-gridview "http://www.yiiframework.com/extension/clear-filters-gridview")
-
 Install
 ---------
 
 We recommend installing the extension with [Composer](http://getcomposer.org/). Add this to the `require` section of your `composer.json`:
 
-    "pentium10/yii-remember-filters-gridview" : "dev-master"
+    "zmiftah/yii-remember-gridview" : "dev-master"
 
 You also need to include composer's autoloader:
 
@@ -128,7 +120,7 @@ remember, filters, cgridview, gridview, store, reload, controller, model, behavi
 Change Log 
 -----------------
 
-[CHANGELOG.md](http://github.com/pentium10/yii-remember-filters-gridview/blob/master/CHANGELOG.md)
+[CHANGELOG.md](http://github.com/zmiftah/yii-remember-gridview/blob/master/CHANGELOG.md)
 
 Contributing
 ------------
@@ -140,4 +132,4 @@ Contributing
 5. Open a [Pull Request][1]
 6. Enjoy a refreshing Diet Coke and wait
 
-[1]: http://github.com/pentium10/yii-remember-filters-gridview/pulls
+[1]: http://github.com/zmiftah/yii-remember-gridview/pulls

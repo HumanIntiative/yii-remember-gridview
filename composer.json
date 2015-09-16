@@ -1,17 +1,26 @@
 {
-    "name": "pentium10/yii-remember-filters-gridview",
-    "description": "This Yii extension helps you to remember filter values of GridViews during navigation, filters will stick.",
-    "keywords": ["yii", "remember", "filters", "cgridview", "gridview", "store", "reload", "controller", "model", "behavior", "interface", "widget", "stick", "scenario"],
+    "name": "zmiftah/yii-remember-gridview",
+    "description": "This Yii extension forked and modified to remember filter, page and sort in cgridview",
+    "keywords": ["yii", "remember", "filter", "page", "sort", "cgridview", "model", "behavior", "widget"],
+    "type": "0.0.2",
     "type": "library",
-    "license": "BSD-2-Clause",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zein Miftah",
+            "email": "zeinmiftah@gmail.com",
+            "role": "Web Developer"
+        }
+    ],
     "support": {
-        "issues": "https://github.com/pentium10/yii-remember-filters-gridview/issues"
+        "issues": "https://github.com/zmiftah/yii-remember-gridview/issues",
+        "source": "https://github.com/zmiftah/yii-remember-gridview"
     },
 	"require": {
-        "php": ">=5.1.0",
+        "php": ">=5.3",
         "yiisoft/yii": "*"
     },
 	"autoload": {
-        "classmap": ["components/ERememberFiltersBehavior.php"]
+        "classmap": ["components/ZRememberGridViewBehavior.php"]
     }
 }

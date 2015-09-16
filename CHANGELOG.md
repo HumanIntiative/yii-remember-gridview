@@ -1,6 +1,12 @@
 Change Log 
 =============================
 
+**Juni 12, 2015**
+
+- Forked from [pentium10/yii-remember-filters-gridview](http://github.com/zmiftah/yii-remember-gridview)
+
+--
+
 **December 25, 2013**
 
 - (New): Added composer  (pentium10)
