@@ -1,6 +1,8 @@
 Yii Remember Gridview
 =============================
 
+Forked from [pentium10/yii-remember-filters-gridview](http://github.com/zmiftah/yii-remember-gridview)
+
 The ZRememberGridViewBehavior Yii extension adds up some functionality to the default possibilites of CActiveRecord/Model implementation.
 
 It will detect the **search** scenario and it will save the filters from the GridView. This comes handy when you need to **remember them between navigation** during page changes. For lot of navigation and heavy filtering, this functionality can be activated by just a couple of lines.

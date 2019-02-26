@@ -1,5 +1,5 @@
 {
-    "name": "zmiftah/yii-remember-gridview",
+    "name": "pkpudev/yii-remember-gridview",
     "description": "This Yii extension forked and modified to remember filter, page and sort in cgridview",
     "keywords": ["yii", "remember", "filter", "page", "sort", "cgridview", "model", "behavior", "widget"],
     "type": "0.0.2",
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/zmiftah/yii-remember-gridview/issues",
-        "source": "https://github.com/zmiftah/yii-remember-gridview"
+        "issues": "https://github.com/pkpudev/yii-remember-gridview/issues",
+        "source": "https://github.com/pkpudev/yii-remember-gridview"
     },
 	"require": {
         "php": ">=5.3",
